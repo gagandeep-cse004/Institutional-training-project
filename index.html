@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.ccom/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- nav menu -->
+     <div class="container" style="background-color: rgb(0, 0, 0);">
+
+        <nav>
+            <div class="navbar">
+                <h1>GAGANDEEP</h1>
+                <div class="navmenu">
+                    <ul>
+                        <li class="hideon"><a href="#home">Home</a></li>
+                        <li class="hideon"><a href="#Aboutme">About Me</a></li>
+                        <li class="hideon"><a href="#Projects">Projects</a></li>
+                        <li class="hideon"><a href="#contact">Contact Me</a></li>
+                        <li class="menubtn" onclick="showsidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                    </ul>
+                    <ul class="sidebar">
+                        <li onclick="closesidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#Aboutme">About Me</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+
+
+        <!-- main -->
+         <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello, I am </p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="auto-type"></span>
+                    </div>
+                    <div class="text-info">
+                        <p style="font-size: 20px;color: white;">My name is Gagandeep and i am a web developer and 
+                            AI & ML Engineer</p>
+                    </div><br>
+                    <div class="textbtn">   
+                        <button class="btn hire-btn">Hire me</button>
+                        <button class="btn"><a href="Document (6).pdf"></a>Download Resume</button>
+                    </div>
+                    <div class="social-icons fade-in">
+                        <a href="https://in.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://github.com/"><i class='bx bxl-github' ></i></a>
+                        <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                </div>
+                <div class="featured-img">
+                    <div class="img">
+                        <img src="my.png" alt="">
+                    </div>
+                </div>
+                
+            </section>
+
+            <!-- about section -->
+             <section class="section" id="Aboutme">
+                <div class="header">
+                    <h1 style="font-size: 40px;">About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col block">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    
+                                        <img src="1.jpeg" alt="" class="profile">
+                                    
+                                    <h1 >Qualification</h1><br><br>
+                                    <h3>Matriculation</h3>
+                                    <p>Passed Matriculation in 2020 from PSEB board with 90% SGPA.</p><br>
+                                    <h3>Senior Secondary Matriculation</h3>
+                                    <p> Passed Secondary Matriculation in 2022 from PSEB board with 93% SGPA.</p><br>
+                                    <h3>B.Tech CSE(AI&ML)</h3>
+                                    <p>Currently pursuing my B.Tech CSE With specialization AI & ML from Lamrin Tech Skills University.</p>
+                                </figcaption>
+                            </figure>
+                            <button class="about-me-btn"><a href="Document (6).pdf"></a>Download Resume</button>
+                        </div>
+                    </div>
+                    <div class="skill block">
+                        <h1 >Skills</h1><br><br>
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar">
+                                <span class="skill-per html">
+                                    <span class="tooltip">90%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar">
+                                <span class="skill-per css">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">PYTHON</span>
+                            <div class="skill-bar">
+                                <span class="skill-per python">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">JAVASCRIPT</span>
+                            <div class="skill-bar">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">AI & ML</span>
+                            <div class="skill-bar">
+                                <span class="skill-per AI">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+             <!-- projects -->
+              <section class="section" id="Projects">
+                <div class="header">
+                    <h1 style="font-size: 40px;color: white;">Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project block">
+                        <div class="pro_img">
+                            <img src="calcu.jpg" alt="">
+                        </div>
+
+                        <div class="pro_info">
+                            <h3 style="text-align: center;font-size: 30px;">Simple Calculator</h3><br>
+                            <h6>Aim : Simple calculator in Python  <br><br> 
+                                Tehnology Used : Tkinter,Matplotlib libraries in python. <br><br> 
+                                Features : calculations,As a Learning tool <br><br>
+                                Description : This was a simple calculator which i have made in python using tkinter library. This was my first project. In this user can do different types of calculations. We can improve this by adding square,squareroot and trignometry buttons.
+                            </h6>
+                            
+                        </div>
+
+                    </div>
+                    <div class="project block">
+                        <div class="pro_img">
+                            <img src="game.png" alt="">
+                        </div>
+
+                        <div class="pro_info">
+                            <h3 style="text-align: center;font-size: 30px;">Word Completion Game</h3><br>
+                            <h6>Aim : Word Completion Game in Java  <br><br> 
+                                Tehnology Used : Oracle Java<br><br> 
+                                Features : Improve Dictionary, Word Guessing <br><br>
+                                Description : This was a word completion Game which i have made in Java. In which there is a line with ine missing word . Where user is enter a word to complete the sentence . This will increase the user dictionary and thinking skills. This game can be improve by adding time and scores of guessing words.
+                            </h6>
+                            
+                        </div>
+                    </div>
+                    <div class="project block">
+                        <div class="pro_img">
+                            <img src="project.png" alt="">
+                        </div>
+
+                        <div class="pro_info">
+                            <h3 style="text-align: center;font-size: 30px;">Blood cancer Detection</h3><br>
+                            <h6>Aim : Blood cancer detection using Machine Learning  <br><br> 
+                                Tehnology Used : Convolutional Neural Networks Model in ML<br><br> 
+                                Features : Detect blood cancer from images<br><br>
+                                Description : In this project i have made a blood cancer detection model using Machine Learning with the help of y team members. In this user upload a image from browse button and our model gave predictions by feature extraction whether there is a blood cancer or not. In this we use CNN model to detect blood cancer.
+                            </h6>
+                            
+                        </div>                  
+                </div>
+              </section>
+              
+              <!-- contact -->
+              <section class="section" id="contact">
+                <div class="topheader">
+                    <h1 style="font-size: 40px;">Let's Work Together</h1>
+                    <h4 style="margin-bottom: 40px;">Do you have any project in your mind, contact me here</h4>
+                </div>
+                <div class="row block">
+                    <div class="col">
+                        <div class="contact">
+                            <img src="contact.jfif" alt="">
+                            <h2>Find Me</h2>
+                            <p>Address : Khad Bathlour, Ropar</p>
+                            <p>E-mail.: gagangujjar004@gmail.com</p>
+                            <p>Phone: 8264819037</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form">
+                            <div class="form-input" >
+                                <input type="text" class="input-field" placeholder="Your Name" id="name">
+                                <input type="text" class="input-field" placeholder="Your Email" id="email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="subject" placeholder="subject" id="subject">
+                                <textarea placeholder="Message" id="message"></textarea>
+                            </div>
+                            <div class="form-btn">
+                                <button class="btn" onclick="sendmsg()">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+        </main>
+        <!-- footer -->
+        <footer>
+             <div class="middle-footer">
+                <ul class="footer_menu">
+                    <li class="footer_menulist">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menulist">
+                        <a href="#Aboutme">About</a>
+                    </li>
+                    <li class="footer_menulist">
+                        <a href="#Projects">Projects</a>
+                    </li>
+                    <li class="footer_menulist">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+             </div>
+             <div class="social-icons fade-in">
+                <a href="https://in.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <div class="bottom-footer">
+                <h6>Thanks to visit Gagandeep Personal portfolio page <br><h6 style="text-align: center;">Have a nice day </h6> </h6>
+            </div>
+        </footer>
+     </div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
